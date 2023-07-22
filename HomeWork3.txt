@@ -1,0 +1,14 @@
+   0 mkdir -p /tmp/hm3/georgiy/ touch /tmp/hm3/georgiy/newfile.txt
+   1 date >> newfile.txt
+   2 echo "Homework3" >> newfile.txt
+   3 df -h
+   4 df -h | tail >> newfile.txt 
+   5 tree /tmp
+   6 history
+   7 history | tail -5 >> newfile.txt
+   8 cat newfile.txt 
+   9 cat /proc/cpuinfo
+  10 cat /proc/cpuinfo | head -2 | tail -1
+  11 cat /proc/cpuinfo | head -2 | tail -1 >> newfile.txt 
+  12 cat newfile.txt 
+  13 history > HomeWork3.txt
