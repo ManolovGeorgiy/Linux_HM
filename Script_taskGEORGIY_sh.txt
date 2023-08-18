@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Формат даты
+date_format=$(date +"%d.%m.%y")
+
+# Создание 10 файлов с порядковыми номерами и датой создания
+        for i in {1..10};
+        do
+        touch "$georgiy""${opt/260623_evening/georgiy/} ${i}${date_format}.txt"
+        echo "This is file number ${i}" > "$georgiy"
+        done
+
+        echo "Создано 10 файлов в папке $georgiy"
+
+
+
